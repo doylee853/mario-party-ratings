@@ -100,20 +100,23 @@ public class Rating extends Thread{
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        Entry ethan = Map.entry("Ethan", 1231);
-        Entry simon = Map.entry("Simon", 1171);
-        Entry s2e = Map.entry("S2E", 1210);
+        Entry ethan = Map.entry("Ethan", 1156);
+        Entry simon = Map.entry("Simon", 1213);
+        Entry s2e = Map.entry("S2E", 1250);
         Entry swoggles = Map.entry("Swoggles", 1090);
         Entry ezra = Map.entry("Ezra", 993);
         Entry erg = Map.entry("Erg", 1045);
         Entry darin = Map.entry("Darin", 1130);
         Entry al = Map.entry("Al", 1032);
-        Entry waluigi = Map.entry("Waluigi", 936);
-        Entry justin = Map.entry("Justin", 1070);
+        Entry waluigi = Map.entry("Waluigi", 964);
+        Entry justin = Map.entry("Justin", 1099);
         Entry aj = Map.entry("AJ", 1102);
         Entry amanda = Map.entry("Amanda", 938);
-        Entry franz = Map.entry("Franz", 1035);
-        Entry ian = Map.entry("Ian", 1050);
+        Entry franz = Map.entry("Franz", 1064);
+        Entry ian = Map.entry("Ian", 1052);
+        Entry ryder = Map.entry("Ryder", 974);
+        Entry mike = Map.entry("Mike", 985);
+        Entry rohan = Map.entry("Rohan", 996);
 
         List<Entry> players = new ArrayList<Entry>();
         players.add(ethan);
@@ -130,6 +133,9 @@ public class Rating extends Thread{
         players.add(amanda);
         players.add(franz);
         players.add(ian);
+        players.add(ryder);
+        players.add(mike);
+        players.add(rohan);
 
         while(true){
 
