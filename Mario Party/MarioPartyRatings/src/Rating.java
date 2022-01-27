@@ -100,15 +100,15 @@ public class Rating extends Thread{
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        Entry ethan = Map.entry("Ethan", 1156);
-        Entry simon = Map.entry("Simon", 1213);
-        Entry s2e = Map.entry("S2E", 1250);
+        Entry ethan = Map.entry("Ethan", 1131);
+        Entry simon = Map.entry("Simon", 1232);
+        Entry s2e = Map.entry("S2E", 1231);
         Entry swoggles = Map.entry("Swoggles", 1090);
         Entry ezra = Map.entry("Ezra", 993);
         Entry erg = Map.entry("Erg", 1045);
         Entry darin = Map.entry("Darin", 1130);
         Entry al = Map.entry("Al", 1032);
-        Entry waluigi = Map.entry("Waluigi", 964);
+        Entry waluigi = Map.entry("Waluigi", 1004);
         Entry justin = Map.entry("Justin", 1099);
         Entry aj = Map.entry("AJ", 1102);
         Entry amanda = Map.entry("Amanda", 938);
