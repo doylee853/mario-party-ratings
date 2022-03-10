@@ -100,23 +100,40 @@ public class Rating extends Thread{
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        Entry ethan = Map.entry("Ethan", 1131);
-        Entry simon = Map.entry("Simon", 1232);
-        Entry s2e = Map.entry("S2E", 1231);
+        Entry ethan = Map.entry("Ethan", 1222);
+        Entry simon = Map.entry("Simon", 1186);
+        Entry s2e = Map.entry("S2E", 1168);
         Entry swoggles = Map.entry("Swoggles", 1090);
-        Entry ezra = Map.entry("Ezra", 993);
+        Entry ezra = Map.entry("Ezra", 1035);
         Entry erg = Map.entry("Erg", 1045);
         Entry darin = Map.entry("Darin", 1130);
         Entry al = Map.entry("Al", 1032);
         Entry waluigi = Map.entry("Waluigi", 1004);
-        Entry justin = Map.entry("Justin", 1099);
-        Entry aj = Map.entry("AJ", 1102);
+        Entry justin = Map.entry("Justin", 1112);
+        Entry aj = Map.entry("AJ", 1086);
         Entry amanda = Map.entry("Amanda", 938);
-        Entry franz = Map.entry("Franz", 1064);
-        Entry ian = Map.entry("Ian", 1052);
+        Entry franz = Map.entry("Franz", 1118);
+        Entry ian = Map.entry("Ian", 1058);
         Entry ryder = Map.entry("Ryder", 974);
         Entry mike = Map.entry("Mike", 985);
         Entry rohan = Map.entry("Rohan", 996);
+        Entry mario = Map.entry("Mario", 1029);
+        Entry wario = Map.entry("Wario", 1018);
+        Entry luigi = Map.entry("Luigi", 1067);
+        Entry peach = Map.entry("Peach", 983);
+        Entry daisy = Map.entry("Daisy", 1071);
+        Entry yoshi = Map.entry("Yoshi", 1003);
+        Entry koopaKid = Map.entry("Koopa Kid", 1007);
+        Entry toad = Map.entry("Toad", 975);
+        Entry boo = Map.entry("Boo", 965);
+
+        Entry hockeyEthan = Map.entry("Hockey Ethan", 1162);
+        Entry hockeySimon = Map.entry("Hockey Simon", 1236);
+        Entry hockeyJustin = Map.entry("Hockey Justin", 1164);
+        Entry hockeyFranz = Map.entry("Hockey Franz", 1082);
+        Entry hockeyS2E = Map.entry("Hockey S2E", 1031);
+        Entry hockeyIan = Map.entry("Hockey Ian", 983);
+        
 
         List<Entry> players = new ArrayList<Entry>();
         players.add(ethan);
@@ -136,6 +153,21 @@ public class Rating extends Thread{
         players.add(ryder);
         players.add(mike);
         players.add(rohan);
+        players.add(mario);
+        players.add(wario);
+        players.add(luigi);
+        players.add(peach);
+        players.add(daisy);
+        players.add(yoshi);
+        players.add(koopaKid);
+        players.add(toad);
+        players.add(boo);
+        players.add(hockeyEthan);
+        players.add(hockeySimon);
+        players.add(hockeyJustin);
+        players.add(hockeyFranz);
+        players.add(hockeyS2E);
+        players.add(hockeyIan);
 
         while(true){
 
