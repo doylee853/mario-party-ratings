@@ -100,8 +100,8 @@ public class Rating extends Thread{
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        Entry ethan = Map.entry("Ethan", 1222);
-        Entry simon = Map.entry("Simon", 1186);
+        Entry ethan = Map.entry("Ethan", 1240);
+        Entry simon = Map.entry("Simon", 1175);
         Entry s2e = Map.entry("S2E", 1168);
         Entry swoggles = Map.entry("Swoggles", 1090);
         Entry ezra = Map.entry("Ezra", 1035);
@@ -109,10 +109,10 @@ public class Rating extends Thread{
         Entry darin = Map.entry("Darin", 1130);
         Entry al = Map.entry("Al", 1032);
         Entry waluigi = Map.entry("Waluigi", 1004);
-        Entry justin = Map.entry("Justin", 1112);
+        Entry justin = Map.entry("Justin", 1151);
         Entry aj = Map.entry("AJ", 1086);
         Entry amanda = Map.entry("Amanda", 938);
-        Entry franz = Map.entry("Franz", 1118);
+        Entry franz = Map.entry("Franz", 1109);
         Entry ian = Map.entry("Ian", 1058);
         Entry ryder = Map.entry("Ryder", 974);
         Entry mike = Map.entry("Mike", 985);
@@ -126,6 +126,8 @@ public class Rating extends Thread{
         Entry koopaKid = Map.entry("Koopa Kid", 1007);
         Entry toad = Map.entry("Toad", 975);
         Entry boo = Map.entry("Boo", 965);
+        Entry koopaTroopa = Map.entry("Koopa Troopa", 1030);
+        Entry goomba = Map.entry("Goomba", 997);
 
         Entry hockeyEthan = Map.entry("Hockey Ethan", 1162);
         Entry hockeySimon = Map.entry("Hockey Simon", 1236);
@@ -162,6 +164,8 @@ public class Rating extends Thread{
         players.add(koopaKid);
         players.add(toad);
         players.add(boo);
+        players.add(koopaTroopa);
+        players.add(goomba);
         players.add(hockeyEthan);
         players.add(hockeySimon);
         players.add(hockeyJustin);
